@@ -71,7 +71,7 @@ This repository contains a Selenium-based automation framework built for automat
 - Java (8 or higher)
 - Maven
 - ChromeDriver/firefoxdriver/edgedriver (update matching your browser version)
-- IDE like IntelliJ or Eclipse (Eclipse Prefered)
+- IDE like IntelliJ or Eclipse (Eclipse preferred)
 
 ### Installation
 
