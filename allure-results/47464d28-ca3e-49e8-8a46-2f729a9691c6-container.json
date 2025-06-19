@@ -1,0 +1,1 @@
+{"uuid":"47464d28-ca3e-49e8-8a46-2f729a9691c6","name":"test.Admin_login_test.setup","children":["e767f2f3-dcc3-4c54-ad4a-07451f612fe8"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747904958028,"stop":1747904968331}],"afters":[],"start":1747904958027,"stop":1747904968331}

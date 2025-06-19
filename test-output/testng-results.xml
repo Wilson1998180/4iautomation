@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-13T20:23:22 GMT+08:00" name="Suite" finished-at="2025-06-13T20:28:57 GMT+08:00" duration-ms="334622">
+    <groups>
+    </groups>
+    <test started-at="2025-06-13T20:23:22 GMT+08:00" name="TestNG" finished-at="2025-06-13T20:28:57 GMT+08:00" duration-ms="334622">
+      <class name="test.Patient_survey_test_5">
+        <test-method signature="T1()[pri:0, instance:test.Patient_survey_test_5@51c693d]" started-at="2025-06-13T20:28:21 GMT+08:00" name="T1" finished-at="2025-06-13T20:28:57 GMT+08:00" duration-ms="35571" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : C:\4isolution\src\test\resources\623b2d2ad2f8d82850218e628598eeed.jpg
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35b23e4ae0e0af5d651adfce9625542a, sendKeysToElement {id=f.DF1AEB0284FB12C6DA07006516C29B3B.d.2830949609873DC407B8D646F0E54D0D.e.95293, value=[Ljava.lang.CharSequence;@14e750c5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\WILSON~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:18534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18534/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (35b23e4ae0e0af5d651adfce9625542a)] -> xpath: //input[@type='file' and @name='attachments[]']]
+Session ID: 35b23e4ae0e0af5d651adfce9625542a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\4isolution\src\test\resources\623b2d2ad2f8d82850218e628598eeed.jpg
+  (Session info: chrome=137.0.7151.104)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35b23e4ae0e0af5d651adfce9625542a, sendKeysToElement {id=f.DF1AEB0284FB12C6DA07006516C29B3B.d.2830949609873DC407B8D646F0E54D0D.e.95293, value=[Ljava.lang.CharSequence;@14e750c5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\WILSON~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:18534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18534/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (35b23e4ae0e0af5d651adfce9625542a)] -> xpath: //input[@type='file' and @name='attachments[]']]
+Session ID: 35b23e4ae0e0af5d651adfce9625542a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at fouri.pages.Patient_survey_5.test(Patient_survey_5.java:85)
+at test.Patient_survey_test_5.T1(Patient_survey_test_5.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+      </class> <!-- test.Patient_survey_test_5 -->
+      <class name="test.Admin_login_test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Admin_login_test@6f1c29b7]" started-at="2025-06-13T20:23:22 GMT+08:00" name="setup" finished-at="2025-06-13T20:23:30 GMT+08:00" duration-ms="7755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="T1()[pri:0, instance:test.Admin_login_test@6f1c29b7]" started-at="2025-06-13T20:23:30 GMT+08:00" name="T1" finished-at="2025-06-13T20:23:33 GMT+08:00" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+      </class> <!-- test.Admin_login_test -->
+      <class name="test.Patient_Case_Test_3">
+        <test-method signature="T1()[pri:0, instance:test.Patient_Case_Test_3@7b7fdc8]" started-at="2025-06-13T20:25:33 GMT+08:00" name="T1" finished-at="2025-06-13T20:28:21 GMT+08:00" duration-ms="168593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+      </class> <!-- test.Patient_Case_Test_3 -->
+      <class name="test.Doctor_creation_test_2">
+        <test-method signature="T1()[pri:0, instance:test.Doctor_creation_test_2@a82c5f1]" started-at="2025-06-13T20:24:07 GMT+08:00" name="T1" finished-at="2025-06-13T20:25:33 GMT+08:00" duration-ms="85351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+      </class> <!-- test.Doctor_creation_test_2 -->
+      <class name="test.survey_Creation_Test_4">
+        <test-method signature="T1()[pri:0, instance:test.survey_Creation_Test_4@37fb0bed]" started-at="2025-06-13T20:23:33 GMT+08:00" name="T1" finished-at="2025-06-13T20:24:07 GMT+08:00" duration-ms="33768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+      </class> <!-- test.survey_Creation_Test_4 -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>
